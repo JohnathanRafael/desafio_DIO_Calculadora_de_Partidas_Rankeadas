@@ -1,5 +1,5 @@
 // A aplicação não considera a entrada pelo usuário, para testar resultados basta alterar 
-// os parâmetros na chamada da função calculateResultRanked(0,0) na linha 28
+// os parâmetros na chamada da função calculateResultRanked(0,0) na linha 30
 
 // Função para calcular a quantidade de vitórias
 function calculateResultRanked(victory, loses){
@@ -25,7 +25,6 @@ function verifyResult(amountVictory){
     }
 }
 
-// função que 
 function main(){
     // mudar os parâmetros aqui
     let amountWins = calculateResultRanked(0,5);
