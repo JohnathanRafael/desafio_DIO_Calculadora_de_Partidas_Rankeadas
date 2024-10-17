@@ -1,10 +1,12 @@
 // A aplicação não considera a entrada pelo usuário, para testar resultados basta alterar 
 // os parâmetros na chamada da função calculateResultRanked(0,0) na linha 28
 
+// Função para calcular a quantidade de vitórias
 function calculateResultRanked(victory, loses){
     return victory - loses;
 }
 
+// Função para indicar em qual elo o jogador está
 function verifyResult(amountVictory){
     if(amountVictory < 10){
         return "FERRO";
@@ -23,6 +25,7 @@ function verifyResult(amountVictory){
     }
 }
 
+// função que 
 function main(){
     // mudar os parâmetros aqui
     let amountWins = calculateResultRanked(0,5);
